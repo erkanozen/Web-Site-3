@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        >
+
+        
+</head>
+
+<body>
+
+    <!-- !!!!!!!!!!!!!!!!         NAVBAR BAŞLANGIÇ            !!!!!!!!!!!!!!!!!! -->
+    <div class="navbar">
+        <div class="navbar-item">
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+            <div class="navbar-text">
+                <ul>
+                    <li class="active">Ana Sayfa</li>
+                    <li>Filmler</li>
+                    <li>Diziler</li>
+                    <li>Listem</li>
+                    <li>Popüler </li>
+                </ul>
+            </div>
+            <div class="navbar-img">
+                <img src="/img/profile.jpg" alt="">
+                <div class="navbar-profil">
+                    <span>Hesabım</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toogle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !!!!!!!!!!!           NAVBAR BİTİŞ            !!!!!!!!!!! -->
+
+    <!-- !!!!!!!!!!!           SİDEBAR BAŞLANGIÇ       !!!!!!!!!!! -->
+
+    <div class="sidebar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-user-group"></i>
+        <i class="fa-solid fa-bookmark"></i>
+        <i class="fa-solid fa-hourglass-start"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-gear"></i>
+    </div>
+    <!-- !!!!!!!!!!!           SİDEBAR BİTİŞ       !!!!!!!!!!! -->
+
+    
+    <div class="container" id="container">
+        <!-- !!!!!!!!!!!            ANASAYFA BAŞLANGIÇ        !!!!!!!!!!!!! -->
+        <div class="anasayfa">
+            <img src="/img/spiderman-title.png" alt="" class="animate__animated animate__fadeInLeft">
+            <p class="animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis cupiditate, pariatur nobis, nesciunt
+                perferendis voluptatibus harum atque eos eveniet cumque unde nulla eligendi neque quam hic asperiores
+                impedit, deleniti placeat nam optio iste. Laudantium ea fuga, obcaecati provident vero ex, libero,
+                tempora nisi sequi maiores impedit rem blanditiis corporis?
+            </p>
+            <div class="button animate__animated animate__fadeInLeft">
+                <button class="play">
+                    <i class="fa-solid fa-play"></i>
+                    Oynat
+                </button>
+                <button class="more animate__animated animate__fadeInLeft">
+                    <i class="fa-solid fa-circle-info"></i>
+                    DAHA FAZLA BİLGİ
+                </button>
+            </div>
+        </div>
+            <!-- !!!!!!!!!!!            ANASAYFA BİTİŞ        !!!!!!!!!!!!! -->
+            
+            <!-- !!!!!!!!!!!            FİLTER BAŞLANGIÇ      !!!!!!!!!!!!! -->
+            <div class="movie-list-filter">
+                <select>
+                    <option >Aksiyon</option>
+                    <option >Animasyon</option>
+                    <option >Belgesel</option>
+                    <option >Komedi</option>
+                    <option >Bilim Kurgu</option>
+                </select>
+            </div>
+    
+            <!-- !!!!!!!!!!!            FİLTER BİTİŞ      !!!!!!!!!!!!! -->
+
+            <!-- !!!!!!!!!!!            MOVİE BAŞLANGIÇ      !!!!!!!!!!!!! -->
+                <div class="movie1">
+                    <h1 class="movie-list-title" style="color: red;">İZLEMEYE DEVAM ET</h1>
+                    <div class="movie">
+                        <div class="movie-wrapper">
+                            <div class="movie-image">
+                                <img src="/img/f10.webp" alt="">
+                            </div>
+                            <div class="movie-title">
+                                <span>WOLVERINE</span>
+                            </div>
+                            <div class="movie-play-button">
+                                <i class="fa-regular fa-circle-play fa-2xl"></i>
+                            </div>
+                        </div>
+    
+                        <div class="movie-wrapper">
+                            <div class="movie-image">
+                                <img src="/img/f23.webp" alt="">
+                            </div>
+                            <div class="movie-title">
+                                <span>CULPA MİA</span>
+                            </div>
+                            <div class="movie-play-button">
+                                <i class="fa-regular fa-circle-play fa-2xl"></i>
+                            </div>
+                        </div>
+    
+                        <div class="movie-wrapper">
+                            <div class="movie-image">
+                                <img src="/img/avatarfilm8.webp" alt="">
+                            </div>
+                            <div class="movie-title">
+                                <span>AVATAR</span>
+                            </div>
+                            <div class="movie-play-button">
+                                <i class="fa-regular fa-circle-play fa-2xl"></i>
+                            </div>
+                        </div>
+    
+                        <div class="movie-wrapper">
+                            <div class="movie-image">
+                                <img src="/img/f11.webp" alt="">
+                            </div>
+                            <div class="movie-title">
+                                <span>DOCTOR STRANGE</span>
+                            </div>
+                            <div class="movie-play-button">
+                                <i class="fa-regular fa-circle-play fa-2xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+
+
+
+
+
+            <!-- MOVİE 1 START -->
+            <div class="movie1">
+                <h1 class="movie-list-title">GÜNDEMDEKİLER</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f1.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>SPİDERMAN</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f2.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>HULK</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f3.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>G.O.R.A</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f4.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>DAREDEVİL</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOVİE 1 FİNİSH -->
+
+
+            <!-- MOVİE 2 START -->
+
+            <div class="movie1">
+                <h1 class="movie-list-title">POPÜLER</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f5.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>HOBBİT</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f6.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>A.R.O.G</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f7.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>DARK</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/avatarfilm8.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>AVATAR</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- MOVİE 2 FINISH -->
+
+            <!-- MOVİE 3 START -->
+            <div class="movie1">
+                <h1 class="movie-list-title">BİLİM-KURGU</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f9.avif" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>IRON MAN</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f10.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>WOLVERINE</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f11.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>DOCTOR STRANGE</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f12.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>ANT-MAN</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOVİE 3 FINISH -->
+
+            <!-- MOVİE 4 START -->
+            <div class="movie1">
+                <h1 class="movie-list-title">KOMEDİ</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f13.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>Cem YILMAZ</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f14.avif" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>TED</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f15.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>HEP-YEK</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f16.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>SABİT KANCA</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- MOVİE 4 FINNISH -->
+
+            <!-- MOVİE 5 START -->
+            <div class="movie1">
+                <h1 class="movie-list-title">AKSİYON VE MACERA</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f17.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>THE REVENANT</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f18.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>THE MUMMY</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f19.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>UNCHARTED</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f20.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>AVA</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- MOVİE 5 FINISH -->
+            <!-- MOVİE 6 START -->
+            <div class="movie1">
+                <h1 class="movie-list-title">EN ÇOK İZLENENLER</h1>
+            <div class="movie">
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f21.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>JUMANJI</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f22.jpg" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>GLADIATOR</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f23.webp" alt="">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>CULPA MİA</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+
+                <div class="movie-wrapper">
+                    <div class="movie-image">
+                        <img src="/img/f24.jpg">
+                    </div>
+                
+                    <div class="movie-title">
+                        <span>PIANIST</span>
+                    </div>
+
+                    <div class="movie-button">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- MOVİE 6 FINISH -->
+
+            <!-- !!!!!!!!!!!            MOVİE BİTİŞ      !!!!!!!!!!!!! -->
+    </div>
+
+    <div class="footer">
+        <div class="footer-tittle">
+            <h2 class="footer-tittle1">ErkanÖZEN</h2>
+            <h2 class="footer-tittle2">Video</h2>
+        </div>
+        <div class="footer-text">
+            <ul>
+                <li><a href="#">Terms and Privacy Notice</a></li>
+                <li><a href="#">Cookie Notice</a></li>
+                <li><a href="#">Send us feedback</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-finish">
+            <p id="finish">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </div>
+
+
+        <div class="topbar1">
+            <a href="#container">
+                <img src="/img/topbar.png" alt="">
+            </a>
+        </div>
+
+        <div class="topbar2">
+            <a href="#finish">
+                <img src="/img/topbar-2.png" alt="">
+            </a>
+        </div>
+        
+    </div>
+
+
+
+
+    
+
+
+</body>
+
+</html>
